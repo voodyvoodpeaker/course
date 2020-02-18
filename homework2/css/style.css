@@ -1,0 +1,52 @@
+#menu{
+    width: 700px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+#menu_btn{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    color: black;
+    text-decoration: none;
+}
+#menu_btn:hover{
+    color: #59bdff;
+}
+#article{
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 30px;
+    display: inline-block;
+}
+.img{
+    width: 320px;
+    margin: auto;
+}
+section{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#button{
+    width: 170px;
+    border: 1px black solid;
+    display: inline-block;
+    margin-left: auto;
+    background-color: #ffffff; /* Green */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
