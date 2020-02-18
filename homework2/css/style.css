@@ -1,4 +1,4 @@
-#menu{
+.menu{
     width: 700px;
     margin-top: auto;
     margin-left: auto;
@@ -9,18 +9,20 @@ li{
     padding: 5px;
     text-align: center;
     display: inline-block;
+    border: 0.5px black solid;
+    border-radius: 10px;
 }
-#menu_btn{
+.menu_btn{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto; 
     color: black;
     text-decoration: none;
 }
-#menu_btn:hover{
+.menu_btn:hover{
     color: #59bdff;
 }
-#article{
+.article{
     width: 350px;
     text-align: center;
     padding: 10px;
@@ -30,18 +32,20 @@ li{
 .img{
     width: 320px;
     margin: auto;
+    border-radius: 10px;
 }
 section{
     width: 900px;
     margin-left: auto;
     margin-right: auto; 
 }
-#button{
+.button{
     width: 170px;
-    border: 1px black solid;
+    border: 0.5px black solid;
+    border-radius: 10px;
     display: inline-block;
     margin-left: auto;
-    background-color: #ffffff; /* Green */
+    background-color: #ffffff;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -49,4 +53,7 @@ section{
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+}
+.copyright{
+    text-align: center;
 }
